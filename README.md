@@ -76,6 +76,7 @@ arep-stellar-luminosity-regression/
 ### Part 1: Linear Regression (One Feature)
 
 **Model (Hypothesis Function):**  
+
 $$\hat{L} = w \cdot M + b$$
 
 **Cost Function (Mean Squared Error):**  
