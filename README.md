@@ -187,7 +187,7 @@ L = [0.15, 0.35, 1.00, 2.30, 4.10, 7.00, 11.2, 17.5, 25.0, 35.0]  # Solar lumino
 
 <img src="assets/images/06-part1-cost-surface-3d.png" alt="Cost Surface 3D" width="85%">
 
-*3D cost function $J(w, b)$ showing convex optimization landscape*
+*3D cost function $J(w,b)$ showing convex optimization landscape*
 
 **Key Insight**: Convex surface guarantees gradient descent convergence to global minimum.
 
@@ -206,7 +206,7 @@ L = [0.15, 0.35, 1.00, 2.30, 4.10, 7.00, 11.2, 17.5, 25.0, 35.0]  # Solar lumino
 
 <img src="assets/images/08-part1-learning-rate-comparison.png" alt="Learning Rate Comparison" width="85%">
 
-*Comparing $α = 0.001, 0.01, 0.05$*
+*Comparing $\alpha = 0.001,\; 0.01,\; 0.05$*
 
 | Learning Rate | Convergence | Stability | Final Cost |
 |---------------|-------------|-----------|------------|
@@ -249,7 +249,7 @@ L = [0.15, 0.35, 1.00, 2.30, 4.10, 7.00, 11.2, 17.5, 25.0, 35.0]  # Solar lumino
 
 <img src="assets/images/12-part2-feature-engineering.png" alt="Feature Engineering" width="85%">
 
-*Polynomial feature matrix: $[M, T, M², M×T]$*
+*Polynomial feature matrix: $[M,\; T,\; M^2,\; M \times T]$*
 
 **Feature Ranges:**
 - $M$: $[0.60, 2.40]$
@@ -275,7 +275,7 @@ L = [0.15, 0.35, 1.00, 2.30, 4.10, 7.00, 11.2, 17.5, 25.0, 35.0]  # Solar lumino
 
 <img src="assets/images/14-part2-cost-vs-interaction.png" alt="Cost vs Interaction" width="85%">
 
-*Parabolic cost when varying $w[M×T]$*
+*Parabolic cost when varying $w[M \times T]$*
 
 **Interpretation**: Clear minimum confirms interaction importance and validates gradient descent accuracy.
 
@@ -294,7 +294,7 @@ L = [0.15, 0.35, 1.00, 2.30, 4.10, 7.00, 11.2, 17.5, 25.0, 35.0]  # Solar lumino
 
 <img src="assets/images/16-part2-inference-demo.png" alt="Inference Demo" width="85%">
 
-*Predicting luminosity for $M = 1.3 M☉$, $T = 6600 K$*
+*Predicting luminosity for $M = 1.3\,M_\odot,\; T = 6600\,\mathrm{K}$*
 
 **Results:**
 - M1: $2.85 L☉$
