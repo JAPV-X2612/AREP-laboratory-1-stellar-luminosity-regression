@@ -1,6 +1,8 @@
 # 🌟 Stellar Luminosity Modeling
 ## Linear and Polynomial Regression from First Principles
 
+<img src="assets/images/00-main-graphics.png" alt="Main Graphics" width="85%">
+
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
 [![NumPy](https://img.shields.io/badge/NumPy-1.21%2B-orange.svg)](https://numpy.org/)
 [![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange.svg)](https://jupyter.org/)
