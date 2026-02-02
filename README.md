@@ -74,9 +74,7 @@ arep-stellar-luminosity-regression/
 ### Part 1: Linear Regression (One Feature)
 
 **Model (Hypothesis Function):**  
-$$
-\hat{L} = w \cdot M + b
-$$
+$$\hat{L} = w \cdot M + b$$
 
 **Cost Function (Mean Squared Error):**  
 $$
@@ -162,21 +160,21 @@ L = [0.15, 0.35, 1.00, 2.30, 4.10, 7.00, 11.2, 17.5, 25.0, 35.0]  # Solar lumino
 
 ### Setup and Configuration
 
-<img src="assets/images/01-sagemaker-ai-console-home.png" alt="SageMaker AI Console" width="70%">
+<img src="assets/images/01-sagemaker-ai-console-home.png" alt="SageMaker AI Console" width="85%">
 
 *AWS SageMaker AI console homepage*
 
-<img src="assets/images/02-notebook-instance-creation.png" alt="Notebook Instance Creation" width="70%">
+<img src="assets/images/02-notebook-instance-creation.png" alt="Notebook Instance Creation" width="85%">
 
 *SageMaker Studio configuration and instance creation*
 
-<img src="assets/images/03-notebook-instance-running.png" alt="Notebook Instance Running" width="70%">
+<img src="assets/images/03-notebook-instance-running.png" alt="Notebook Instance Running" width="85%">
 
 *Studio environment in running state*
 
 ### Files and Workspace
 
-<img src="assets/images/04-files-uploaded.png" alt="Files Uploaded" width="70%">
+<img src="assets/images/04-files-uploaded.png" alt="Files Uploaded" width="85%">
 
 *Jupyter notebooks loaded in SageMaker Studio Code Editor*
 
@@ -188,7 +186,7 @@ L = [0.15, 0.35, 1.00, 2.30, 4.10, 7.00, 11.2, 17.5, 25.0, 35.0]  # Solar lumino
 
 #### Dataset Visualization
 
-<img src="assets/images/05-part1-dataset-visualization.png" alt="Part 1 Dataset" width="70%">
+<img src="assets/images/05-part1-dataset-visualization.png" alt="Part 1 Dataset" width="85%">
 
 *Mass vs Luminosity showing non-linear relationship*
 
@@ -196,7 +194,7 @@ L = [0.15, 0.35, 1.00, 2.30, 4.10, 7.00, 11.2, 17.5, 25.0, 35.0]  # Solar lumino
 
 #### Cost Surface
 
-<img src="assets/images/06-part1-cost-surface-3d.png" alt="Cost Surface 3D" width="70%">
+<img src="assets/images/06-part1-cost-surface-3d.png" alt="Cost Surface 3D" width="85%">
 
 *3D cost function $J(w, b)$ showing convex optimization landscape*
 
@@ -204,7 +202,7 @@ L = [0.15, 0.35, 1.00, 2.30, 4.10, 7.00, 11.2, 17.5, 25.0, 35.0]  # Solar lumino
 
 #### Convergence Analysis
 
-<img src="assets/images/07-part1-convergence-plot.png" alt="Convergence Plot" width="70%">
+<img src="assets/images/07-part1-convergence-plot.png" alt="Convergence Plot" width="85%">
 
 *Cost decreasing monotonically over iterations*
 
@@ -215,7 +213,7 @@ L = [0.15, 0.35, 1.00, 2.30, 4.10, 7.00, 11.2, 17.5, 25.0, 35.0]  # Solar lumino
 
 #### Learning Rate Experiments
 
-<img src="assets/images/08-part1-learning-rate-comparison.png" alt="Learning Rate Comparison" width="70%">
+<img src="assets/images/08-part1-learning-rate-comparison.png" alt="Learning Rate Comparison" width="85%">
 
 *Comparing $α = 0.001, 0.01, 0.05$*
 
@@ -229,7 +227,7 @@ L = [0.15, 0.35, 1.00, 2.30, 4.10, 7.00, 11.2, 17.5, 25.0, 35.0]  # Solar lumino
 
 #### Residual Analysis
 
-<img src="assets/images/09-part1-residual-plots.png" alt="Residual Analysis" width="70%">
+<img src="assets/images/09-part1-residual-plots.png" alt="Residual Analysis" width="85%">
 
 *Residuals revealing systematic errors*
 
@@ -240,7 +238,7 @@ L = [0.15, 0.35, 1.00, 2.30, 4.10, 7.00, 11.2, 17.5, 25.0, 35.0]  # Solar lumino
 
 #### Execution Complete
 
-<img src="assets/images/10-part1-execution-complete.png" alt="Part 1 Complete" width="70%">
+<img src="assets/images/10-part1-execution-complete.png" alt="Part 1 Complete" width="85%">
 
 *Final parameters:* $w ≈ 19.3, b ≈ -6.8$
 
@@ -250,7 +248,7 @@ L = [0.15, 0.35, 1.00, 2.30, 4.10, 7.00, 11.2, 17.5, 25.0, 35.0]  # Solar lumino
 
 #### Dataset with Temperature Encoding
 
-<img src="assets/images/11-part2-dataset-visualization.png" alt="Part 2 Dataset" width="70%">
+<img src="assets/images/11-part2-dataset-visualization.png" alt="Part 2 Dataset" width="85%">
 
 *Mass vs Luminosity with temperature color gradient*
 
@@ -258,7 +256,7 @@ L = [0.15, 0.35, 1.00, 2.30, 4.10, 7.00, 11.2, 17.5, 25.0, 35.0]  # Solar lumino
 
 #### Feature Engineering
 
-<img src="assets/images/12-part2-feature-engineering.png" alt="Feature Engineering" width="70%">
+<img src="assets/images/12-part2-feature-engineering.png" alt="Feature Engineering" width="85%">
 
 *Polynomial feature matrix: $[M, T, M², M×T]$*
 
@@ -270,7 +268,7 @@ L = [0.15, 0.35, 1.00, 2.30, 4.10, 7.00, 11.2, 17.5, 25.0, 35.0]  # Solar lumino
 
 #### Model Comparison
 
-<img src="assets/images/13-part2-model-comparison.png" alt="Model Comparison" width="70%">
+<img src="assets/images/13-part2-model-comparison.png" alt="Model Comparison" width="85%">
 
 *M1 (linear), M2 (+M²), M3 (+M×T interaction)*
 
@@ -284,7 +282,7 @@ L = [0.15, 0.35, 1.00, 2.30, 4.10, 7.00, 11.2, 17.5, 25.0, 35.0]  # Solar lumino
 
 #### Cost vs Interaction Coefficient
 
-<img src="assets/images/14-part2-cost-vs-interaction.png" alt="Cost vs Interaction" width="70%">
+<img src="assets/images/14-part2-cost-vs-interaction.png" alt="Cost vs Interaction" width="85%">
 
 *Parabolic cost when varying $w[M×T]$*
 
@@ -292,7 +290,7 @@ L = [0.15, 0.35, 1.00, 2.30, 4.10, 7.00, 11.2, 17.5, 25.0, 35.0]  # Solar lumino
 
 #### Predicted vs Actual
 
-<img src="assets/images/15-part2-predictions-vs-actual.png" alt="Predictions vs Actual" width="70%">
+<img src="assets/images/15-part2-predictions-vs-actual.png" alt="Predictions vs Actual" width="85%">
 
 *M3 predictions tightly clustered around perfect line*
 
@@ -303,7 +301,7 @@ L = [0.15, 0.35, 1.00, 2.30, 4.10, 7.00, 11.2, 17.5, 25.0, 35.0]  # Solar lumino
 
 #### Inference Demo
 
-<img src="assets/images/16-part2-inference-demo.png" alt="Inference Demo" width="70%">
+<img src="assets/images/16-part2-inference-demo.png" alt="Inference Demo" width="85%">
 
 *Predicting luminosity for $M = 1.3 M☉$, $T = 6600 K$*
 
@@ -317,7 +315,7 @@ L = [0.15, 0.35, 1.00, 2.30, 4.10, 7.00, 11.2, 17.5, 25.0, 35.0]  # Solar lumino
 
 #### Execution Complete
 
-<img src="assets/images/17-part2-execution-complete.png" alt="Part 2 Complete" width="70%">
+<img src="assets/images/17-part2-execution-complete.png" alt="Part 2 Complete" width="85%">
 
 *Final summary with M3 parameters*
 
