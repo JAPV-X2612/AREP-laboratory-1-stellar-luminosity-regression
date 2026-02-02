@@ -79,14 +79,17 @@ arep-stellar-luminosity-regression/
 
 $$\hat{L} = w \cdot M + b$$
 
-**Cost Function (Mean Squared Error):**  
+**Cost Function (Mean Squared Error):**
+
 $$J(w, b) = \frac{1}{2m} \sum_{i=1}^{m} \left(\hat{L}^{(i)} - L^{(i)}\right)^2$$
 
 **Gradients:**
+
 $$\frac{\partial J}{\partial w} = \frac{1}{m} \sum_{i=1}^{m} \left(\hat{L}^{(i)} - L^{(i)}\right) \cdot M^{(i)}$$
 $$\frac{\partial J}{\partial b} = \frac{1}{m} \sum_{i=1}^{m} \left(\hat{L}^{(i)} - L^{(i)}\right)$$
 
 **Gradient Descent Update:**
+
 $$w := w - \alpha \cdot \frac{\partial J}{\partial w}$$
 $$b := b - \alpha \cdot \frac{\partial J}{\partial b}$$
 
@@ -95,12 +98,15 @@ $$b := b - \alpha \cdot \frac{\partial J}{\partial b}$$
 ### Part 2: Polynomial Regression (Multiple Features)
 
 **Feature Engineering:**  
+
 $$X = [M,\; T,\; M^2,\; M \times T]$$
 
 **Model:**  
+
 $$\hat{L} = X \cdot w + b = w_1 M + w_2 T + w_3 M^2 + w_4 (M \times T) + b$$
 
 **Vectorized Gradients:**
+
 $$\nabla_w J = \frac{1}{m} X^T (Xw + b - L)$$
 $$\frac{\partial J}{\partial b} = \frac{1}{m} \sum_{i=1}^{m} \left(\hat{L}^{(i)} - L^{(i)}\right)$$
 
@@ -328,6 +334,7 @@ L = [0.15, 0.35, 1.00, 2.30, 4.10, 7.00, 11.2, 17.5, 25.0, 35.0]  # Solar lumino
 ### Astrophysical Context
 
 Main sequence stars follow:
+
 $$L \approx M^{\alpha}, \text{ where } \alpha \approx 3.5$$
 
 M3 successfully captures this via:
