@@ -187,7 +187,7 @@ L = [0.15, 0.35, 1.00, 2.30, 4.10, 7.00, 11.2, 17.5, 25.0, 35.0]  # Solar lumino
 
 <img src="assets/images/06-part1-cost-surface-3d.png" alt="Cost Surface 3D" width="85%">
 
-*3D cost function $J(w,b)$ showing convex optimization landscape*
+*3D cost function `J(w,b)` showing convex optimization landscape*
 
 **Key Insight**: Convex surface guarantees gradient descent convergence to global minimum.
 
@@ -206,7 +206,7 @@ L = [0.15, 0.35, 1.00, 2.30, 4.10, 7.00, 11.2, 17.5, 25.0, 35.0]  # Solar lumino
 
 <img src="assets/images/08-part1-learning-rate-comparison.png" alt="Learning Rate Comparison" width="85%">
 
-*Comparing $\alpha = 0.001,\; 0.01,\; 0.05$*
+*Comparing* $\alpha = 0.001,\; 0.01,\; 0.05$
 
 | Learning Rate | Convergence | Stability | Final Cost |
 |---------------|-------------|-----------|------------|
