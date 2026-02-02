@@ -397,7 +397,7 @@ jupyter>=1.0.0
         <sub><b>Jesús Alfonso Pinzón Vega</b></sub>
       </a>
       <br />
-      <sub>Backend Developer</sub>
+      <sub>Full Stack Developer</sub>
     </td>
   </tr>
 </table>
